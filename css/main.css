@@ -1,0 +1,139 @@
+header {
+  width: 100%;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 25px;
+  color: #0d8ac7;
+  border-radius: 100px;
+  border: 2px solid #0d8ac7;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+.header__desktop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .header__desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+html {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin: 1rem;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card .card__content {
+  padding: 1rem;
+}
+.card .card__content p {
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.menu__lat-menu--closed {
+  display: none;
+  margin: 2rem 0 0 1rem;
+  font-size: 0.85rem;
+}
+.menu__lat-menu--closed h1 {
+  font-size: 1rem;
+  color: #79909a;
+  width: 100%;
+}
+.menu__lat-menu--closed ul {
+  width: 250px;
+}
+.menu__lat-menu--closed li {
+  padding: 1rem 0;
+}
+.menu__lat-menu--closed .search-input {
+  margin: 1rem 0;
+}
+.menu__lat-menu--closed .search-input label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #79909a;
+  width: 100%;
+}
+.menu__lat-menu--closed .search-input label input {
+  margin: 1rem 0;
+  padding: 0.85rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.menu__lat-menu--closed .search-input label input::placeholder {
+  color: darkgray;
+}
+.menu__lat-menu--closed .search-input label span {
+  align-self: flex-end;
+  margin-top: -0.9rem;
+}
+
+@media (min-width: 800px) {
+  main {
+    width: 90%;
+  }
+
+  .card {
+    width: 300px;
+  }
+  .card img {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 800px) {
+  .menu__lat-menu--closed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.432);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
