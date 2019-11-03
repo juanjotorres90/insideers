@@ -17,7 +17,9 @@ main {
   display: flex;
   justify-content: center;
 }
-
+.container {
+  width: 100%;
+}
 .card {
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
@@ -34,6 +36,13 @@ main {
       margin-bottom: 1rem;
     }
   }
+}
+.button {
+  cursor: pointer;
+}
+.is-checked {
+  color: $main-color;
+  font-weight: 700;
 }
 .menu__lat-menu--closed {
   display: none;
@@ -84,13 +93,13 @@ main {
     width: 90%;
   }
   .card {
-    width: 300px;
+    width: 330px;
     img {
       width: 100%;
     }
   }
   .container {
-    // width: 75%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

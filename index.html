@@ -20,14 +20,14 @@
 
     <div class="header header__desktop">
       <button class="filters-button">Filters</button>
-      <nav>
-        <ul>
-          <li>All</li>
-          <li>Telecommunications</li>
-          <li>Automotive</li>
-          <li>Banking & Insurance</li>
-          <li>Travel & Hospitality</li>
-          <li>Other</li>
+      <nav class="filters">
+        <ul class="button-group" data-filter-group="area">
+          <li class="button" data-filter="">All</li>
+          <li class="button" data-filter=".telecom">Telecommunications</li>
+          <li class="button" data-filter=".auto">Automotive</li>
+          <li class="button" data-filter=".banking">Banking & Insurance</li>
+          <li class="button" data-filter=".travel">Travel & Hospitality</li>
+          <li class="button" data-filter=".other">Other</li>
         </ul>
       </nav>
     </div>
@@ -36,7 +36,7 @@
 
   <main>
    
-      <div class="menu__lat-menu--closed">
+      <div class="menu__lat-menu--closed filters">
 
 
           <div class="search-input">
@@ -48,23 +48,23 @@
 
 
       	<h1>Filter by content type</h1>
-      	  <ul>
-      	      <li>All</li>
-      	      <li>Ebook</li>
-      	      <li>Research Paper</li>
-      	      <li>Success Story</li>
-      	      <li>Video</li>
-              <li>Blog Post</li>
-              <li>Press Release</li>
-      	      <li>Webinar</li>
-      	      <li>Other</li>
+      	  <ul class="button-group" data-filter-group="content">
+      	      <li class="button" data-filter="">All</li>
+      	      <li class="button" data-filter=".ebook">Ebook</li>
+      	      <li class="button" data-filter=".paper">Research Paper</li>
+      	      <li class="button" data-filter=".story">Success Story</li>
+      	      <li class="button" data-filter=".video">Video</li>
+              <li class="button" data-filter=".blog">Blog Post</li>
+              <li class="button" data-filter=".press">Press Release</li>
+      	      <li class="button" data-filter=".webinar">Webinar</li>
+      	      <li class="button" data-filter=".other">Other</li>
       	    </ul>
       </div>
 
 
     <div class="container">
 
-      <div class="card">
+      <div class="card blog travel">
         <img src="img/card.jpg" alt="Card image">
         <div class="card__content">
           <p>
@@ -73,7 +73,7 @@
           <button>To the Blog Post</button>
         </div>
       </div>
-      <div class="card">
+      <div class="card webinar banking">
         <img src="img/card.jpg" alt="Card image">
         <div class="card__content">
           <p>
@@ -82,7 +82,7 @@
           <button>Watch Webinar</button>
         </div>
       </div>
-      <div class="card">
+      <div class="card video auto">
         <img src="img/card.jpg" alt="Card image">
         <div class="card__content">
           <p>
@@ -189,6 +189,7 @@
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 </body>
 
 </html>

@@ -50,6 +50,10 @@ main {
   justify-content: center;
 }
 
+.container {
+  width: 100%;
+}
+
 .card {
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
@@ -66,6 +70,15 @@ main {
   font-size: 0.85rem;
   line-height: 1.3rem;
   margin-bottom: 1rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.is-checked {
+  color: #0d8ac7;
+  font-weight: 700;
 }
 
 .menu__lat-menu--closed {
@@ -115,13 +128,14 @@ main {
   }
 
   .card {
-    width: 300px;
+    width: 330px;
   }
   .card img {
     width: 100%;
   }
 
   .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
