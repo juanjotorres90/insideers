@@ -10,7 +10,7 @@ header {
     li {
       padding: 10px;
       font-size: .85rem;
-      font-weight: 700;      
+      font-weight: 700;
     }
   }
 }
@@ -66,6 +66,10 @@ button {
 
       &::placeholder {
         color: darkgray;
+      }
+      &:focus {
+        border: 1px solid $main-color;
+        box-shadow: 0 0 3px $main-color;
       }
     }
   }
