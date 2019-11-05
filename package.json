@@ -4,7 +4,7 @@
   "description": "Prueba técnica Insideers",
   "main": "index.js",
   "scripts": {
-   "compile:sass": "node-sass scss/main.scss css/style.css -w"
+   "compile:sass": "sass --watch scss:css"
   },
   "author": "Juanjo Torres",
   "license": "ISC",

@@ -1,9 +1,11 @@
 $(function () {
 
+  // Filters button behaviour
 
   $(".filters-button").click(function () {
     $(this).toggleClass("header__button--checked");
     $(".menu__lat-menu--closed").slideToggle(800, 'swing');
+    $(".container").css("display", "flex")
   });
   $("span").click(function () {
     $(".menu__lat-menu--closed").hide();
@@ -19,6 +21,7 @@ $(function () {
 
   var qsRegex;
 
+  // Isotope filters
 
   var $grid = $('.container').isotope({
     itemSelector: '.card',
@@ -64,6 +67,7 @@ $(function () {
   }
 
 
+  // Search bar
 
   var $quicksearch = $('.quicksearch').keyup(debounce(function () {
     qsRegex = new RegExp($quicksearch.val(), 'gi');

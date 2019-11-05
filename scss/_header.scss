@@ -21,7 +21,6 @@ button {
   color: $main-color;
   border-radius: 100px;
   border: 2px solid $main-color;
-  // font-family: $main-font;
   font-weight: 700;
   font-size: .85rem;
   cursor: pointer;
@@ -38,8 +37,6 @@ button {
 
 .header__desktop {
   display: none;
-  // display: flex;
-  // justify-content: space-between;
 }
 
 
@@ -67,6 +64,7 @@ button {
       &::placeholder {
         color: darkgray;
       }
+
       &:focus {
         border: 1px solid $main-color;
         box-shadow: 0 0 3px $main-color;

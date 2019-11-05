@@ -1,6 +1,6 @@
-## - Prueba técnica Insideers
+## Prueba técnica Insideers
 
-Check out the <a href="" target="_blank">Demo</a>.
+Check out the <a href="https://juanjotorres.net/projects/insideers/" target="_blank">Demo</a>.
 
 INTRODUCCIÓN:
 
@@ -9,14 +9,13 @@ Esta prueba trata de evaluar los conocimientos en distintas áreas y niveles de 
 Para la font family puedes utilizar cualquiera de: https://fonts.google.com/
 Para las imágenes de los contenidos puedes utilizar las imágenes que quieras y lo mismo con los textos.
 
- RECURSOS:
+RECURSOS:
 
-●	Puedes encontrar aquí la llamada a jQuery: https://developers.google.com/speed/libraries
-●	Para el filtro usa https://isotope.metafizzy.co/filtering.html
-●	Para aplicar ISOTOPE en un campo de búsqueda aquí hay un codepen de ejemplo:
-●	https://codepen.io/desandro/pen/wfaGu
-●	Para usar filtros combinados con ISOTOPE aquí hay un codepen de ejemplo:
-●	https://codepen.io/desandro/pen/JEojz
+- Puedes encontrar aquí la llamada a jQuery: https://developers.google.com/speed/libraries
+
+- Para el filtro usa https://isotope.metafizzy.co/filtering.html
+- Para aplicar ISOTOPE en un campo de búsqueda aquí hay un codepen de ejemplo: https://codepen.io/desandro/pen/wfaGu
+- Para usar filtros combinados con ISOTOPE aquí hay un codepen de ejemplo: https://codepen.io/desandro/pen/JEojz
 
 EJERCICIOS:
 
@@ -29,7 +28,7 @@ EJERCICIOS:
 
 BONUS:
 
-●	Se valorará el uso de la metodología BEM: https://en.bem.info/methodology
-●	Se valorará el uso de variables CSS
-●	Añade algún tipo de animación al mostrar la barra lateral cuando se clique el botón filter.
-●	Aplica algún estilo distintivo a los textos filtros cuando estén activos.
+- Se valorará el uso de la metodología BEM: https://en.bem.info/methodology
+- Se valorará el uso de variables CSS
+- Añade algún tipo de animación al mostrar la barra lateral cuando se clique el botón filter.
+- Aplica algún estilo distintivo a los textos filtros cuando estén activos.

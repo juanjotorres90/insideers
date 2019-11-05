@@ -1,6 +1,9 @@
 @import '_variables';
 @import '_header';
 
+
+// Mobile first
+
 html {
   font-size: 16px;
   font-family: $main-font;
@@ -20,15 +23,19 @@ main {
   justify-content: center;
 }
 
+// Container of items
+
 .container {
   width: 100%;
 }
+
+
+// Cards styling
 
 .card {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
-
   margin: 1rem;
 
   img {
@@ -51,14 +58,22 @@ main {
   }
 }
 
+
 .button {
   cursor: pointer;
 }
+
+
+// Active filters on menus
 
 .is-checked {
   color: $main-color;
   font-weight: 700;
 }
+
+
+
+// Lateral menu
 
 .menu__lat-menu--closed {
   display: none;
@@ -102,6 +117,7 @@ main {
         &::placeholder {
           color: darkgray;
         }
+
         &:focus {
           border: 1px solid $main-color;
           box-shadow: 0 0 3px $main-color;
@@ -118,6 +134,9 @@ main {
 
 }
 
+
+// Showing closing button on mobile
+
 h1 {
   display: flex;
   justify-content: space-between;
@@ -127,13 +146,16 @@ h1 {
   }
 }
 
+
+// Desktop width > 800px
+
 @media (min-width: 800px) {
   main {
     width: 95%;
   }
 
   .card {
-    width: 330px;
+    width: 320px;
     height: 390px;
 
     img {
@@ -144,18 +166,21 @@ h1 {
   }
 
   .container {
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    margin: 2rem 0 0 3rem;
   }
 
   h1 span {
     display: none;
   }
 }
+
+
+
+// Temporary fix for side menu when resizing window
 
 @media (max-width: 800px) {
   .menu__lat-menu--closed {
